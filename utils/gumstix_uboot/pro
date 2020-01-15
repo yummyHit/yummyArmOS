@@ -1,0 +1,691 @@
+./README:		CFG_PROMPT_HUSH_PS2
+./README:- CFG_PROMPT:	This is what U-Boot prints on the console to
+./board/fads/fads.h:#define	CFG_PROMPT		"=>"	/* Monitor Command Prompt	*/
+./board/fads/fads.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./common/command.c:	if (strcmp(prompt, CFG_PROMPT) != 0)
+./common/hush.c:		n = readline(CFG_PROMPT);
+./common/hush.c:		n = readline(CFG_PROMPT_HUSH_PS2);
+./common/main.c:		len = readline (CFG_PROMPT);
+./include/configs/A3000.h:#define CFG_PROMPT	"A3000> "		/* Monitor Command Prompt	*/
+./include/configs/A3000.h:#define CFG_PBSIZE	(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/ADCIOP.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/ADCIOP.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ADNPESC1.h:#define	CFG_PROMPT		"ADNPESC1 > " /* Monitor Command Prompt	*/
+./include/configs/ADNPESC1.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ADNPESC1.h:#define CFG_PROMPT_HUSH_PS2	"[]> "
+./include/configs/AMX860.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/AMX860.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/AP1000.h:#define CFG_PROMPT		"0> "
+./include/configs/AP1000.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/AP1000.h:/* usually: (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) */
+./include/configs/APC405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/APC405.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/APC405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/AR405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/AR405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ASH405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/ASH405.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/ASH405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/Adder.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt	*/
+./include/configs/Adder.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/Adder.h:#define CFG_PBSIZE (CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)  /* Print Buffer Size */
+./include/configs/Alaska8220.h:#define CFG_PROMPT		"=> "	    /* Monitor Command Prompt	*/
+./include/configs/Alaska8220.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/AmigaOneG3SE.h:#define CFG_PROMPT	"] "		/* Monitor Command Prompt	*/
+./include/configs/AmigaOneG3SE.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/AmigaOneG3SE.h:#define CFG_PBSIZE	(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/B2.h:#define	CFG_PROMPT		"=>  "	/* Monitor Command Prompt	*/
+./include/configs/B2.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/BAB7xx.h:#define CFG_PROMPT              "=> "   /* Monitor Command Prompt */
+./include/configs/BAB7xx.h:#define CFG_PBSIZE              (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/BMW.h:#define CFG_PROMPT	"=>"	        /* Monitor Command Prompt	*/
+./include/configs/BMW.h:#define CFG_PBSIZE	(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/CANBT.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CANBT.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CATcenter.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/CATcenter.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/CATcenter.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CCM.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CCM.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CMS700.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CMS700.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/CMS700.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CPC45.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CPC45.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/CPC45.h:#define CFG_PBSIZE	(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/CPCI2DP.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CPCI2DP.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/CPCI2DP.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CPCI405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CPCI405.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/CPCI405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CPCI4052.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CPCI4052.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/CPCI4052.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CPCI405AB.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CPCI405AB.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/CPCI405AB.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CPCI405DT.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CPCI405DT.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/CPCI405DT.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CPCI440.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CPCI440.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CPCI750.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/CPCI750.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CPCI750.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CPCIISER4.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CPCIISER4.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CPU86.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CPU86.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CPU87.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CPU87.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CRAYL1.h:#define CFG_PROMPT_HUSH_PS2		"> "
+./include/configs/CRAYL1.h:#define CFG_PROMPT	"=> "			/* Monitor Command Prompt	*/
+./include/configs/CRAYL1.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/CU824.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/CU824.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/CU824.h:#define CFG_PBSIZE	(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/DASA_SIM.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/DASA_SIM.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/DB64360.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/DB64360.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/DB64360.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/DB64460.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/DB64460.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/DB64460.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/DK1C20.h:#define	CFG_PROMPT		"DK1C20 > " /* Monitor Command Prompt	*/
+./include/configs/DK1C20.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/DK1S10.h:#define	CFG_PROMPT		"DK1S10 > " /* Monitor Command Prompt	*/
+./include/configs/DK1S10.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/DP405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/DP405.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/DP405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/DU405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/DU405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ELPPC.h:#define CFG_PROMPT              "=> "   /* Monitor Command Prompt */
+./include/configs/ELPPC.h:#define CFG_PBSIZE              (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ELPT860.h:#define CFG_PROMPT     "LEOX_elpt860: " /* Monitor Command Prompt	*/
+./include/configs/ELPT860.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ERIC.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/ERIC.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ESTEEM192E.h:#define	CFG_PROMPT	"BOOT: "	/* Monitor Command Prompt	*/
+./include/configs/ESTEEM192E.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ETX094.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/ETX094.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/EVB64260.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/EVB64260.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/EVB64260.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/EXBITGEN.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/EXBITGEN.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/FADS823.h:#define	CFG_PROMPT		":>"		/* Monitor Command Prompt	*/
+./include/configs/FADS823.h:#define	CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/FADS850SAR.h:#define	CFG_PROMPT		":>"		/* Monitor Command Prompt	*/
+./include/configs/FADS850SAR.h:#define	CFG_PBSIZE	(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/FLAGADM.h:#define CFG_PROMPT	"EEG> "		/* Monitor Command Prompt	*/
+./include/configs/FLAGADM.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/FPS850L.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/FPS850L.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/FPS860L.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/FPS860L.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/G2000.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/G2000.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/G2000.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/GEN860T.h:#define	CFG_PROMPT			"B2> "
+./include/configs/GEN860T.h:#define	CFG_PROMPT			"SC> "
+./include/configs/GEN860T.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/GEN860T.h:#define	CFG_PBSIZE (CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/GENIETV.h:#define	CFG_PROMPT		":>"		/* Monitor Command Prompt	*/
+./include/configs/GENIETV.h:#define	CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/GTH.h:#define	CFG_PROMPT		"=>"	/* Monitor Command Prompt	*/
+./include/configs/GTH.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/HH405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/HH405.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/HH405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/HIDDEN_DRAGON.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt	*/
+./include/configs/HIDDEN_DRAGON.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size	*/
+./include/configs/HMI10.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/HMI10.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/HMI10.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/HUB405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/HUB405.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/HUB405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/IAD210.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/IAD210.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ICU862.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/ICU862.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/IDS8247.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/IDS8247.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/IP860.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/IP860.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/IPHASE4539.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/IPHASE4539.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)  /* Print Buffer Size */
+./include/configs/ISPAN.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt	*/
+./include/configs/ISPAN.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/ISPAN.h:#define CFG_PBSIZE (CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)  /* Print Buffer Size */
+./include/configs/IVML24.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/IVML24.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/IVMS8.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/IVMS8.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/IceCube.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/IceCube.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/JSE.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/JSE.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/JSE.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/KAREF.h:#define CFG_PROMPT	      "KaRefDes=> "  /* Monitor Command Prompt	*/
+./include/configs/KAREF.h:#define CFG_PROMPT_HUSH_PS2    "> "
+./include/configs/KAREF.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)
+./include/configs/KUP4K.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/KUP4K.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/KUP4X.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/KUP4X.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/LANTEC.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/LANTEC.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/M5272C3.h:#define CFG_PROMPT		"-> "
+./include/configs/M5272C3.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/M5282EVB.h:#define CFG_PROMPT		"-> "
+./include/configs/M5282EVB.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/MBX.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/MBX.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/MBX.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/MBX860T.h:#define	CFG_PROMPT		":>"		/* Monitor Command Prompt	*/
+./include/configs/MBX860T.h:#define	CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/METROBOX.h:#define CFG_PROMPT	      "MetroBox=> "  /* Monitor Command Prompt	*/
+./include/configs/METROBOX.h:#define CFG_PROMPT_HUSH_PS2    "> "
+./include/configs/METROBOX.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)
+./include/configs/MHPC.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/MHPC.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/MIP405.h:#define	 CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/MIP405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/MIP405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ML2.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/ML2.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/MOUSSE.h:#define CFG_PROMPT      "=>"  /* Monitor Command Prompt   */
+./include/configs/MOUSSE.h:#define CFG_PBSIZE      (CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/MPC8260ADS.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/MPC8260ADS.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt   */
+./include/configs/MPC8260ADS.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/MPC8266ADS.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt   */
+./include/configs/MPC8266ADS.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/MPC8349ADS.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/MPC8349ADS.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt */
+./include/configs/MPC8349ADS.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/MPC8540ADS.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/MPC8540ADS.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt */
+./include/configs/MPC8540ADS.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/MPC8540EVAL.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/MPC8540EVAL.h:#define CFG_PROMPT	"MPC8540EVAL=> "/* Monitor Command Prompt	*/
+./include/configs/MPC8540EVAL.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/MPC8541CDS.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/MPC8541CDS.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt */
+./include/configs/MPC8541CDS.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/MPC8548CDS.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/MPC8548CDS.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt */
+./include/configs/MPC8548CDS.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/MPC8555CDS.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/MPC8555CDS.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt */
+./include/configs/MPC8555CDS.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/MPC8560ADS.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/MPC8560ADS.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt */
+./include/configs/MPC8560ADS.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/MUSENKI.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/MUSENKI.h:#define CFG_PBSIZE	(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/MVBLUE.h:#define CFG_PROMPT	"=> "	/* Monitor Command Prompt	*/
+./include/configs/MVBLUE.h:#define CFG_PBSIZE		(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/MVS1.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/MVS1.h:#define CFG_PROMPT_HUSH_PS2     "> "
+./include/configs/MVS1.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/NC650.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/NC650.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/NETPHONE.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/NETPHONE.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/NETPHONE.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/NETTA.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/NETTA.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/NETTA.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/NETTA2.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/NETTA2.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/NETTA2.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/NETVIA.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/NETVIA.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/NSCU.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/NSCU.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/NSCU.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/NX823.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/NX823.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/OCRTC.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/OCRTC.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ORSG.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/ORSG.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/OXC.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt	*/
+./include/configs/OXC.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size	*/
+./include/configs/P3G4.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/P3G4.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/P3G4.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/PATI.h:#define	CFG_PROMPT		"pati=> "		/* Monitor Command Prompt	*/
+./include/configs/PATI.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/PCI405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/PCI405.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/PCI405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/PCI5441.h:#define	CFG_PROMPT		"==> "		/* Command prompt	*/
+./include/configs/PCI5441.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print buf size	*/
+./include/configs/PCIPPC2.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/PCIPPC2.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/PCIPPC2.h:#define CFG_PBSIZE	(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/PCIPPC6.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/PCIPPC6.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/PCIPPC6.h:#define CFG_PBSIZE	(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/PIP405.h:#define	 CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/PIP405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/PIP405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/PK1C20.h:#define CFG_PROMPT		"==> "		/* Command prompt	*/
+./include/configs/PK1C20.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print buf size */
+./include/configs/PK1C20.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/PLU405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/PLU405.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/PLU405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/PM520.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/PM520.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/PM826.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/PM826.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/PM828.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/PM828.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/PM854.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/PM854.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt */
+./include/configs/PM854.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/PM856.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/PM856.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt */
+./include/configs/PM856.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/PMC405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/PMC405.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/PMC405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/PN62.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt	*/
+./include/configs/PN62.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size	*/
+./include/configs/PPChameleonEVB.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/PPChameleonEVB.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/PPChameleonEVB.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/QS823.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt */
+./include/configs/QS823.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/QS823.h:#define CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/QS850.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt */
+./include/configs/QS850.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/QS850.h:#define CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/QS860T.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt */
+./include/configs/QS860T.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/QS860T.h:#define CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/R360MPI.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/R360MPI.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/RBC823.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/RBC823.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/RPXClassic.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/RPXClassic.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/RPXlite.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/RPXlite.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/RPXlite_DW.h:#define CFG_PROMPT	"u-boot>"	/* Monitor Command Prompt   */
+./include/configs/RPXlite_DW.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/RPXsuper.h:#define CFG_PROMPT              "=> "
+./include/configs/RPXsuper.h:#define CFG_PBSIZE        (CFG_CBSIZE + sizeof(CFG_PROMPT)+16)
+./include/configs/RRvision.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/RRvision.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/Rattler.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/Rattler.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/Rattler.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size  */
+./include/configs/SBC8540.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/SBC8540.h:#define CFG_PROMPT	"SBC8540=> " /* Monitor Command Prompt	*/
+./include/configs/SBC8540.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/SBC8560.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/SBC8560.h:#define CFG_PROMPT	"SBC8560=> " /* Monitor Command Prompt	*/
+./include/configs/SBC8560.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/SCM.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/SCM.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/SL8245.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/SL8245.h:#define CFG_PBSIZE	(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/SM850.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/SM850.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/SPD823TS.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/SPD823TS.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/SX1.h:#define CFG_PROMPT		"SX1# " /* Monitor Command Prompt	*/
+./include/configs/SX1.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/SXNI855T.h:#define	CFG_PROMPT		"=>"	/* Monitor Command Prompt	*/
+./include/configs/SXNI855T.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/Sandpoint8240.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt	*/
+./include/configs/Sandpoint8240.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size	*/
+./include/configs/Sandpoint8245.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt	*/
+./include/configs/Sandpoint8245.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size	*/
+./include/configs/TASREG.h:#define CFG_PROMPT		"=> "
+./include/configs/TASREG.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TOP5200.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/TOP5200.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/TOP860.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/TOP860.h: #define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/TOP860.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM5200.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/TQM5200.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM823L.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/TQM823L.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/TQM823L.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM823M.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/TQM823M.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/TQM823M.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM8260.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/TQM8260.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM834x.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt */
+./include/configs/TQM834x.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM850L.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/TQM850L.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/TQM850L.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM850M.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/TQM850M.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/TQM850M.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM855L.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/TQM855L.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/TQM855L.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM855M.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/TQM855M.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/TQM855M.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM85xx.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/TQM85xx.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/TQM85xx.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buf Size	*/
+./include/configs/TQM860L.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/TQM860L.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/TQM860L.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM860M.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/TQM860M.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/TQM860M.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM862L.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/TQM862L.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/TQM862L.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM862M.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/TQM862M.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/TQM862M.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/TQM866M.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/TQM866M.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/TQM866M.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/Total5200.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/Total5200.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/VCMA9.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/VCMA9.h:#define	CFG_PROMPT		"VCMA9 # "	/* Monitor Command Prompt	*/
+./include/configs/VCMA9.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/VOH405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/VOH405.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/VOH405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/VOM405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/VOM405.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/VOM405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/VoVPN-GW.h:#define	CFG_PROMPT			"=> "
+./include/configs/VoVPN-GW.h:#define	CFG_PBSIZE			(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/W7OLMC.h:#define CFG_PROMPT		"Wave7Optics> " /* Monitor Command Prompt	*/
+./include/configs/W7OLMC.h:#define CFG_PROMPT_HUSH_PS2     "> "
+./include/configs/W7OLMC.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size	*/
+./include/configs/W7OLMG.h:#define CFG_PROMPT		"Wave7Optics> " /* Monitor Command Prompt	*/
+./include/configs/W7OLMG.h:#define CFG_PROMPT_HUSH_PS2     "> "
+./include/configs/W7OLMG.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size	*/
+./include/configs/WUH405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/WUH405.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/WUH405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/XPEDITE1K.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/XPEDITE1K.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/Yukon8220.h:#define CFG_PROMPT		"=> "	    /* Monitor Command Prompt	*/
+./include/configs/Yukon8220.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/ZPC1900.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/ZPC1900.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/ZPC1900.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size  */
+./include/configs/ZUMA.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/ZUMA.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/ZUMA.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/adsvix.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/adsvix.h:#define CFG_PROMPT		"$ "		/* Monitor Command Prompt */
+./include/configs/adsvix.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt */
+./include/configs/adsvix.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/aev.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/aev.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/armadillo.h:#define	CFG_PROMPT		"ARMADILLO # "	/* Monitor Command Prompt	*/
+./include/configs/armadillo.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/assabet.h:#define CFG_PROMPT		"Intel Assabet # "	/* Monitor Command Prompt       */
+./include/configs/assabet.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/at91rm9200dk.h:#define CFG_PROMPT		"U-Boot> "	/* Monitor Command Prompt */
+./include/configs/at91rm9200dk.h:#define CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/atc.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/atc.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/bamboo.h:#define CFG_PROMPT	        "=> "	/* Monitor Command Prompt	*/
+./include/configs/bamboo.h:#define CFG_PBSIZE              (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/barco.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt	*/
+./include/configs/barco.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size	*/
+./include/configs/bubinga.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/bubinga.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/c2mon.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/c2mon.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/c2mon.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/canmb.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/canmb.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/cerf250.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/cerf250.h:#define CFG_PROMPT			"uboot$ "	/* Monitor Command Prompt */
+./include/configs/cerf250.h:#define CFG_PROMPT			"=> "		/* Monitor Command Prompt */
+./include/configs/cerf250.h:#define CFG_PBSIZE 			(CFG_CBSIZE+sizeof(CFG_PROMPT)+16)
+./include/configs/cm4008.h:#define CFG_PROMPT		"boot > "	/* Monitor Command Prompt	*/
+./include/configs/cm4008.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/cm41xx.h:#define CFG_PROMPT		"boot > "	/* Monitor Command Prompt	*/
+./include/configs/cm41xx.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/cmc_pu2.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt */
+./include/configs/cmc_pu2.h:#define CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/cmi_mpc5xx.h:#define	CFG_PROMPT		"=> "		/* Monitor Command Prompt	*/
+./include/configs/cmi_mpc5xx.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/cobra5272.h:#define CFG_PROMPT		"COBRA > "	/* Layout of u-boot prompt*/
+./include/configs/cobra5272.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/cogent_mpc8260.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/cogent_mpc8260.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/cogent_mpc8xx.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/cogent_mpc8xx.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/cpci5200.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/cpci5200.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/cradle.h:#define CFG_PROMPT              "=> "   /* Monitor Command Prompt       */
+./include/configs/cradle.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/csb226.h:#define CFG_PROMPT		"uboot> "	/* Monitor Command Prompt       */
+./include/configs/csb226.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/csb272.h:#define	CFG_PROMPT_HUSH_PS2	"> "	/* hush shell secondary prompt */
+./include/configs/csb272.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt */
+./include/configs/csb272.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/csb472.h:#define	CFG_PROMPT_HUSH_PS2	"> "	/* hush shell secondary prompt */
+./include/configs/csb472.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt */
+./include/configs/csb472.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/csb637.h:#define CFG_PROMPT		"U-Boot> "	/* Monitor Command Prompt */
+./include/configs/csb637.h:#define CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/dbau1x00.h:#define	CFG_PROMPT		"DbAu1xx0 # "	/* Monitor Command Prompt    */
+./include/configs/dbau1x00.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)  /* Print Buffer Size */
+./include/configs/debris.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt	*/
+./include/configs/debris.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size	*/
+./include/configs/dnp1110.h:#define	CFG_PROMPT		"DNP1110 # "	/* Monitor Command Prompt	*/
+./include/configs/dnp1110.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/eXalion.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/eXalion.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size	*/
+./include/configs/ebony.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/ebony.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ep7312.h:#define	CFG_PROMPT		"EP7312 # "	/* Monitor Command Prompt	*/
+./include/configs/ep7312.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ep8248.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/ep8248.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/ep8248.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size  */
+./include/configs/ep8260.h:#define CFG_PROMPT              "=> "
+./include/configs/ep8260.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/ep8260.h:#define CFG_PBSIZE        (CFG_CBSIZE + sizeof(CFG_PROMPT)+16)
+./include/configs/evb4510.h:#define CFG_PROMPT		"evb4510 # "	/* Monitor Command Prompt */
+./include/configs/evb4510.h:#define CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/gcplus.h:#define	CFG_PROMPT		"ADS GCPlus # "	/* Monitor Command Prompt	*/
+./include/configs/gcplus.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/gumstix.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/gumstix.h:#define CFG_PROMPT		"GUM> "		/* prompt string		*/
+./include/configs/gumstix.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* print buffer size	*/
+./include/configs/gw8260.h:#define CFG_PROMPT      "=> "
+./include/configs/gw8260.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/gw8260.h:#define CFG_PBSIZE    (CFG_CBSIZE + sizeof(CFG_PROMPT)+16)
+./include/configs/hermes.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/hermes.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/hmi1001.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/hmi1001.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/hymod.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/hymod.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/impa7.h:#define	CFG_PROMPT		"impA7 # "		/* Monitor Command Prompt	*/
+./include/configs/impa7.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/incaip.h:#define	CFG_PROMPT		"INCA-IP # "	/* Monitor Command Prompt    */
+./include/configs/incaip.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)  /* Print Buffer Size */
+./include/configs/inka4x0.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/inka4x0.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/innokom.h:#define CFG_PROMPT		"uboot> "	/* Monitor Command Prompt       */
+./include/configs/innokom.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/integratorap.h:#define CFG_PROMPT	"Integrator-AP # "	/* Monitor Command Prompt   */
+./include/configs/integratorap.h:#define CFG_PBSIZE	(CFG_CBSIZE+sizeof(CFG_PROMPT)+16)
+./include/configs/integratorcp.h:#define CFG_PROMPT	"Integrator-CP # "	/* Monitor Command Prompt */
+./include/configs/integratorcp.h:#define CFG_PBSIZE	(CFG_CBSIZE+sizeof(CFG_PROMPT)+16)
+./include/configs/ixdp425.h:#define CFG_PROMPT              "=> "   /* Monitor Command Prompt       */
+./include/configs/ixdp425.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/kb9202.h:#define CFG_PROMPT		"U-Boot> "	/* Monitor Command Prompt */
+./include/configs/kb9202.h:#define CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/lart.h:#define	CFG_PROMPT		"LART # "	/* Monitor Command Prompt	*/
+./include/configs/lart.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/logodl.h:#define CFG_PROMPT		"uboot> "	/* Monitor Command Prompt       */
+./include/configs/logodl.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/lpd7a400.h:#define	CFG_PROMPT		"LPD7A400> "	/* Monitor Command Prompt	*/
+./include/configs/lpd7a400.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/lpd7a404.h:#define	CFG_PROMPT		"LPD7A404> "	/* Monitor Command Prompt	*/
+./include/configs/lpd7a404.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/luan.h:#define CFG_PROMPT	        "=> "	/* Monitor Command Prompt	*/
+./include/configs/luan.h:#define CFG_PBSIZE              (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/lubbock.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/lubbock.h:#define CFG_PROMPT		"$ "		/* Monitor Command Prompt */
+./include/configs/lubbock.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt */
+./include/configs/lubbock.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/lwmon.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/lwmon.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/lwmon.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ml300.h:#define CFG_PROMPT	"=> "	/* Monitor Command Prompt	*/
+./include/configs/ml300.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/modnet50.h:#define	CFG_PROMPT		"modnet50 # "	/* Monitor Command Prompt */
+./include/configs/modnet50.h:#define	CFG_PBSIZE              (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/mp2usb.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt */
+./include/configs/mp2usb.h:#define CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/mx1ads.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/mx1ads.h:#define CFG_PROMPT		"MX1ADS$ "	/* Monitor Command Prompt */
+./include/configs/mx1ads.h:#define CFG_PROMPT		"MX1ADS=> "	/* Monitor Command Prompt */
+./include/configs/mx1ads.h:#define CFG_PBSIZE		(CFG_CBSIZE+sizeof(CFG_PROMPT)+16)
+./include/configs/mx1fs2.h:#define CFG_PROMPT		"mx1fs2> "	      /* prompt string	     */
+./include/configs/mx1fs2.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* print buffer size   */
+./include/configs/ns9750dev.h:#define	CFG_PROMPT		"NS9750DEV # "	/* Monitor Command Prompt	*/
+./include/configs/ns9750dev.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/o2dnt.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/o2dnt.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/ocotea.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/ocotea.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/omap1510inn.h:#define CFG_PROMPT		"OMAP1510 Innovator # " /* Monitor Command Prompt	*/
+./include/configs/omap1510inn.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/omap1610h2.h:#define CFG_PROMPT	"OMAP1610 H2 # "	/* Monitor Command Prompt */
+./include/configs/omap1610h2.h:#define CFG_PBSIZE	(CFG_CBSIZE+sizeof(CFG_PROMPT)+16)
+./include/configs/omap1610inn.h:#define CFG_PROMPT	"OMAP1610 Innovator # "	/* Monitor Command Prompt   */
+./include/configs/omap1610inn.h:#define CFG_PBSIZE	(CFG_CBSIZE+sizeof(CFG_PROMPT)+16)
+./include/configs/omap2420h4.h:#define CFG_PROMPT               V_PROMPT
+./include/configs/omap2420h4.h:#define CFG_PBSIZE               (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)
+./include/configs/omap5912osk.h:#define CFG_PROMPT	"OMAP5912 OSK # "	/* Monitor Command Prompt   */
+./include/configs/omap5912osk.h:#define CFG_PBSIZE	(CFG_CBSIZE+sizeof(CFG_PROMPT)+16)
+./include/configs/omap730p2.h:#define CFG_PROMPT		   "OMAP730 P2 # "     /* Monitor Command Prompt   */
+./include/configs/omap730p2.h:#define CFG_PBSIZE		   (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)
+./include/configs/p3p440.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/p3p440.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/pb1x00.h:#define	CFG_PROMPT		"Pb1x00 # "	/* Monitor Command Prompt    */
+./include/configs/pb1x00.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)  /* Print Buffer Size */
+./include/configs/pcu_e.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/pcu_e.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/pf5200.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/pf5200.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/pleb2.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/pleb2.h:#define CFG_PROMPT		"$ "		/* Monitor Command Prompt */
+./include/configs/pleb2.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt */
+./include/configs/pleb2.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/ppmc8260.h:#define CFG_PROMPT		"=> "
+./include/configs/ppmc8260.h:#define CFG_PBSIZE	  (CFG_CBSIZE + sizeof(CFG_PROMPT)+16)
+./include/configs/purple.h:#define	CFG_PROMPT		"PURPLE # "	/* Monitor Command Prompt    */
+./include/configs/purple.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)  /* Print Buffer Size */
+./include/configs/pxa255_idp.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/pxa255_idp.h:#define CFG_PROMPT		"$ "		/* Monitor Command Prompt */
+./include/configs/pxa255_idp.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt */
+./include/configs/pxa255_idp.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/quantum.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/quantum.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/rmu.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/rmu.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/rsdproto.h:#define	CFG_PROMPT		"=> "		/* Monitor Command Prompt	*/
+./include/configs/rsdproto.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/sacsng.h:#define CFG_PROMPT		"=> "
+./include/configs/sacsng.h:#define CFG_PROMPT_HUSH_PS2     "> "
+./include/configs/sacsng.h:#define CFG_PBSIZE	  (CFG_CBSIZE + sizeof(CFG_PROMPT)+16)
+./include/configs/sbc405.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/sbc405.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/sbc405.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/sbc8240.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/sbc8240.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/sbc8240.h:#define CFG_PBSIZE	(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/sbc8260.h:#define CFG_PROMPT		"=> "
+./include/configs/sbc8260.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/sbc8260.h:#define CFG_PBSIZE	  (CFG_CBSIZE + sizeof(CFG_PROMPT)+16)
+./include/configs/sbc8560.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/sbc8560.h:#define CFG_PROMPT	"SBC8560=> " /* Monitor Command Prompt	*/
+./include/configs/sbc8560.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/sc520_cdp.h:#define	CFG_PROMPT		"boot > "	/* Monitor Command Prompt	*/
+./include/configs/sc520_cdp.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/sc520_spunk.h:#define	CFG_PROMPT		"boot > "	/* Monitor Command Prompt	*/
+./include/configs/sc520_spunk.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/scb9328.h:#define CFG_PROMPT		"scb9328> "	      /* prompt string	     */
+./include/configs/scb9328.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* print buffer size   */
+./include/configs/shannon.h:#define	CFG_PROMPT		"TuxScreen # "	/* Monitor Command Prompt	*/
+./include/configs/shannon.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/smdk2400.h:#define	CFG_PROMPT		"SMDK2400 # "	/* Monitor Command Prompt	*/
+./include/configs/smdk2400.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/smdk2410.h:#define	CFG_PROMPT		"SMDK2410 # "	/* Monitor Command Prompt	*/
+./include/configs/smdk2410.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/sorcery.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/sorcery.h:#define CFG_PROMPT		"=> "	    /* Monitor Command Prompt	*/
+./include/configs/sorcery.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)	/* Print Buffer Size */
+./include/configs/spieval.h:#define CFG_PROMPT		"=> "	/* Monitor Command Prompt   */
+./include/configs/spieval.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/stxgp3.h:#define CFG_PROMPT_HUSH_PS2 "> "
+./include/configs/stxgp3.h:#define CFG_PROMPT	"GPPP=> "	/* Monitor Command Prompt	*/
+./include/configs/stxgp3.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/stxxtc.h:#define	CFG_PROMPT	"xtc> "		/* Monitor Command Prompt	*/
+./include/configs/stxxtc.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/stxxtc.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/suzaku.h:#define CFG_PROMPT		"SUZAKU> "	/* Monitor Command Prompt	*/
+./include/configs/suzaku.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size	*/
+./include/configs/svm_sc8xx.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/svm_sc8xx.h:#define CFG_PROMPT_HUSH_PS2     "> "
+./include/configs/svm_sc8xx.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/tb0229.h:#define CFG_PROMPT		"# "		/* Monitor Command Prompt    */
+./include/configs/tb0229.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)  /* Print Buffer Size */
+./include/configs/trab.h:#define	CFG_PROMPT		"TRAB # "	/* Monitor Command Prompt	*/
+./include/configs/trab.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/trab.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/uc100.h:#define	CFG_PROMPT		"=> "	/* Monitor Command Prompt	*/
+./include/configs/uc100.h:#define	CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/uc100.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/utx8245.h:#define CFG_PROMPT	"=> "			/* Monitor Command Prompt	*/
+./include/configs/utx8245.h:#define CFG_PBSIZE	(CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
+./include/configs/v37.h:#define	CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/v37.h:#define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/versatile.h:#define CFG_PROMPT	"Versatile # "	/* Monitor Command Prompt   */
+./include/configs/versatile.h:#define CFG_PBSIZE	(CFG_CBSIZE+sizeof(CFG_PROMPT)+16)
+./include/configs/voiceblue.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/voiceblue.h:#define CFG_PROMPT		"# "		/* Monitor Command Prompt	*/
+./include/configs/voiceblue.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/walnut.h:#define CFG_PROMPT	"=> "		/* Monitor Command Prompt	*/
+./include/configs/walnut.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/wepep250.h:#define CFG_PROMPT              "WEP> "               /* prompt string       */
+./include/configs/wepep250.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* print buffer size   */
+./include/configs/xaeniax.h:#define CFG_PROMPT_HUSH_PS2	"> "
+./include/configs/xaeniax.h:#define CFG_PROMPT		"u-boot$ "	/* Monitor Command Prompt */
+./include/configs/xaeniax.h:#define CFG_PROMPT		"u-boot=> "	/* Monitor Command Prompt */
+./include/configs/xaeniax.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/xm250.h:#define CFG_PROMPT		"=> "		/* Monitor Command Prompt	*/
+./include/configs/xm250.h:#define CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/xsengine.h:#define CFG_PROMPT_HUSH_PS2		"> "
+./include/configs/xsengine.h:#define CFG_PROMPT			"XS-Engine u-boot> "			/* Monitor Command Prompt */
+./include/configs/xsengine.h:#define CFG_PBSIZE			(CFG_CBSIZE+sizeof(CFG_PROMPT)+16) 	/* Print Buffer Size */
+./include/configs/yellowstone.h:#define CFG_PROMPT	        "=> "	/* Monitor Command Prompt	*/
+./include/configs/yellowstone.h:#define CFG_PBSIZE              (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
+./include/configs/yosemite.h:#define CFG_PROMPT	        "=> "	/* Monitor Command Prompt	*/
+./include/configs/yosemite.h:#define CFG_PBSIZE              (CFG_CBSIZE+sizeof(CFG_PROMPT)+16) /* Print Buffer Size */
