@@ -10,12 +10,33 @@
 ==========================================================================================================================*/
 .globl _ram_entry
 _ram_entry:
-	bl	main	   // C 함수의 main함수를 호출한다. 	
-	b	_ram_entry // main 함수의 호출이 끝났다면 재 호출한다. 
-	b	asm_swi_handler
-	b	asm_irq_handler
-//	bl	swi_handler
-//	bl	irq_handler
+	b		kernel_init
+	b		_ram_entry // main 함수의 호출이 끝났다면 재 호출한다. 
+	b		asm_swi_handler
+	b		asm_irq_handler
+
+#define svc_stack	0xa0300000
+#define irq_stack	0xa0380000
+#define sys_stack	0xa0400000
+
+.global kernel_init
+kernel_init:
+	msr		cpsr_c,#0xc0|0x13
+	ldr		r0,=svc_stack
+	sub		sp,r0,#4
+
+	msr		cpsr_c,#0xc0|0x12
+	ldr		r0,=irq_stack
+	sub		sp,r0,#4
+
+	msr		cpsr_c,#0xc0|0x1f
+	ldr		r0,=sys_stack
+	sub		sp,r0,#4
+
+	msr		cpsr_c,#0xc0|0x13
+
+	bl		main	   // C 함수의 main함수를 호출한다. 	
+	b		_ram_entry
 
 .global asm_swi_handler
 asm_swi_handler:
@@ -32,4 +53,13 @@ asm_swi_handler:
 
 .global asm_irq_handler
 asm_irq_handler:
+	sub		lr,lr,#4
+	stmfd	sp!,{lr}
+	stmfd	sp!,{r0-r14}^
+	mrs		r1,spsr
+	stmfd	sp!,{r1}
 	bl		irq_handler
+	ldmfd	sp!,{r1}
+	msr		spsr_cxsf,r1
+	ldmfd	sp!,{r0-r14}^
+	ldmfd	sp!,{pc}^
